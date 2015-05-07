@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jeferson/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/jeferson/AndroidStudioProjects/CompQuiz/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-bc7879e917a67695d991f1546cf83a2c87b9e33f.jar" />
+    </item>
+    <item
+        jar="/home/jeferson/AndroidStudioProjects/CompQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/jeferson/AndroidStudioProjects/CompQuiz/app/build/intermediates/pre-dexed/debug/classes-c894227e0a6d5a91670c1a05f6d48f4bf058e6ad.jar" />
+    </item>
+    <item
+        jar="/home/jeferson/AndroidStudioProjects/CompQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/jeferson/AndroidStudioProjects/CompQuiz/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-90ba91bf7e9b4d05f89dfb577c833ba692a7f96a.jar" />
+    </item>
+    <item
+        jar="/home/jeferson/AndroidStudioProjects/CompQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/jeferson/AndroidStudioProjects/CompQuiz/app/build/intermediates/pre-dexed/debug/classes-675ebf19e9e275027d7c4b7cbce973a10909edc6.jar" />
+    </item>
+
+</items>

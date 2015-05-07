@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.compquiz.compquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_hdpi"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity Escolher Jogo por categoria -->
+        <activity
+            android:name=".ChooseCategories"
+            android:label="@string/activity_choose_categories"
+            android:theme="@style/FullscreenTheme" />
+
+        <!-- Activity Escolher Jogo por nível de dificuldade -->
+        <activity
+            android:name=".ChooseDifficultyLevel"
+            android:label="@string/activity_choose_difficulty"
+            android:theme="@style/FullscreenTheme" />
+
+        <!-- Activity PlayByDifficultyLevel -->
+        <activity
+            android:name=".PlayByDifficultyLevel"
+            android:label="@string/activity_play"
+            android:theme="@style/FullscreenTheme" />
+
+        <!-- Activity PlayByCategories -->
+        <activity
+            android:name=".PlayByCategories"
+            android:label="@string/activity_play"
+            android:theme="@style/FullscreenTheme" />
+
+    </application>
+
+</manifest>

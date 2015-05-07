@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_difficulty"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+
+        <RadioButton
+            android:id="@+id/beginner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/beginner" />
+
+        <RadioButton
+            android:id="@+id/nerd_wannable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/nerd_wannable" />
+
+        <RadioButton
+            android:id="@+id/nerd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/nerd" />
+
+        <RadioButton
+            android:id="@+id/geek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/geek" />
+
+        <RadioButton
+            android:id="@+id/professional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/professional" />
+
+        <RadioButton
+            android:id="@+id/god"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/god" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/new_game_by_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="@string/play" />
+</LinearLayout>

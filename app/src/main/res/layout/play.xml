@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/statmnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statmnt"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <RadioButton
+        android:id="@+id/alt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alt1" />
+
+    <RadioButton
+        android:id="@+id/alt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alt2" />
+
+    <RadioButton
+        android:id="@+id/alt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alt3" />
+
+    <RadioButton
+        android:id="@+id/alt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alt4" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/confirm" />
+</LinearLayout>

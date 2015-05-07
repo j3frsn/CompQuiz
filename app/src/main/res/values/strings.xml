@@ -1,0 +1,43 @@
+<resources>
+    <!-- Strings de uso geral-->
+    <string name="app_name">CompQuiz</string>
+    <string name="action_settings">Sou um menu...</string>
+    <string name="play">Jogar</string>
+
+    <!-- Strings da Activity MainActivity -->
+    <string name="new_game_by_category">Novo jogo por categoria</string>
+    <string name="new_game_by_difficulty_level">Novo jogo por dificuldade</string>
+
+    <!-- Strings da Activity ChooseCategories -->
+    <string name="activity_choose_categories">Escolher jogo por categoria</string>
+    <string name="choose_category">Escolha um ou mais assuntos dentre os listados</string>
+    <string name="curiosities">Curiosidades</string>
+    <string name="variety">Diversos</string>
+    <string name="companies">Empresas Importantes</string>
+    <string name="hardware">Hardware</string>
+    <string name="internet">Internet</string>
+    <string name="renown">Nomes Importantes</string>
+    <string name="programming">Programação</string>
+    <string name="software">Software</string>
+
+    <!-- Strings da Activity ChooseDifficultyLevel -->
+    <string name="activity_choose_difficulty">Escolher jogo por dificuldade</string>
+    <string name="choose_difficulty">Escolha um dos níveis de dificuldade abaixo</string>
+    <string name="beginner">Principiante</string>
+    <string name="nerd_wannable">Aspirante a nerd</string>
+    <string name="nerd">Nerd</string>
+    <string name="geek">Geek</string>
+    <string name="professional">Profissional</string>
+    <string name="god">Deus</string>
+
+    <!-- Strings da Activity PlayByDifficultyLevel -->
+    <string name="activity_play">Jogar</string>
+    <string name="statmnt">Aqui vai aparecer uma pergunta</string>
+    <string name="alt1">Alternativa 1</string>
+    <string name="alt2">Alternativa 1</string>
+    <string name="alt3">Alternativa 1</string>
+    <string name="alt4">Alternativa 1</string>
+
+    <string name="confirm">Confirmar</string>
+</resources>
+
